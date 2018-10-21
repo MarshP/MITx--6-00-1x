@@ -102,3 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# mine
+Proprietary_Materials_Local_Only/

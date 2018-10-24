@@ -106,14 +106,40 @@
 <node TEXT="Concat strings is an example of telling an operator (+) to do something based on the object types." ID="ID_755699396" CREATED="1540162816327" MODIFIED="1540162851141"/>
 <node TEXT="Non-scalar" ID="ID_1673791503" CREATED="1540162870958" MODIFIED="1540162876011"/>
 <node TEXT="Operations on strings and string attributes are super-useful to know." ID="ID_1506533417" CREATED="1540162970390" MODIFIED="1540163007035"/>
+<node TEXT="Immutable" ID="ID_709944833" CREATED="1540342691881" MODIFIED="1540342701585"/>
 </node>
 </node>
 <node TEXT="Strings" POSITION="right" ID="ID_86523320" CREATED="1540162332897" MODIFIED="1540162337547"/>
 <node TEXT="IDEs" POSITION="left" ID="ID_438010813" CREATED="1540162349128" MODIFIED="1540162363970"/>
 <node TEXT="Control Flow" POSITION="right" ID="ID_1909761990" CREATED="1540162366168" MODIFIED="1540162375573">
+<node TEXT="Branching" ID="ID_308467078" CREATED="1540330649409" MODIFIED="1540330655394">
+<node TEXT="The branch is a _conditional_" ID="ID_1081972091" CREATED="1540330612074" MODIFIED="1540330624089"/>
 <node TEXT="If-elif-else checks returns the first true and quits the flow" ID="ID_484006657" CREATED="1540164549490" MODIFIED="1540164674293"/>
 </node>
-<node TEXT="Iteration" POSITION="left" ID="ID_804393704" CREATED="1540162391528" MODIFIED="1540162397154"/>
-<node TEXT="Guess and Check" POSITION="right" ID="ID_1369492761" CREATED="1540162399208" MODIFIED="1540162409603"/>
+<node TEXT="Looping&#xa;&#xa;Write lots of these. And watch the off-by-one end conditions" ID="ID_1566906379" CREATED="1540330669913" MODIFIED="1540337424752">
+<node TEXT="While loop" ID="ID_1388639610" CREATED="1540331458559" MODIFIED="1540331464484">
+<node TEXT="Indeterminate number iterations" ID="ID_72902346" CREATED="1540330731792" MODIFIED="1540331474424"/>
+<node TEXT="Initialize counter outside, change it inside" ID="ID_105425588" CREATED="1540330873256" MODIFIED="1540331454775"/>
+<node TEXT="Might not be able to convert to FOR loop" ID="ID_1104175548" CREATED="1540331481902" MODIFIED="1540331589911"/>
+</node>
+<node TEXT="for loop" ID="ID_36929400" CREATED="1540330754321" MODIFIED="1540331513176">
+<node TEXT="Known number iterations" ID="ID_871898774" CREATED="1540331516006" MODIFIED="1540331519959"/>
+<node TEXT="counter made and tested in loop" ID="ID_1575737823" CREATED="1540330938423" MODIFIED="1540331548362">
+<node TEXT="&quot;for&quot; and &quot;in&quot; are key words&#xa;start value end value and step in opening line" ID="ID_1273670023" CREATED="1540331005664" MODIFIED="1540331076207"/>
+<node TEXT="for [var] in range ([start], [end], [step]):&#xa;    [action]" ID="ID_635813869" CREATED="1540331349439" MODIFIED="1540331362018"/>
+</node>
+<node TEXT="Can rewrite as a WHILE loop" ID="ID_435805294" CREATED="1540331562126" MODIFIED="1540331595103"/>
+</node>
+<node TEXT="Break leaves a loop" ID="ID_1779484469" CREATED="1540331112471" MODIFIED="1540331127919"/>
+<node TEXT="Iteration" ID="ID_804393704" CREATED="1540162391528" MODIFIED="1540338897505">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1369492761" STARTINCLINATION="5;54;" ENDINCLINATION="88;-95;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="Relies on loops.&#xa;Allows rerunning and changing code until a condition is True. Reusing code in the same program." ID="ID_760856621" CREATED="1540337472959" MODIFIED="1540337611439"/>
+<node TEXT="Useful to think about a _decrementing function_ which decrements then stops the loop at zero" ID="ID_111190859" CREATED="1540339068090" MODIFIED="1540339192501"/>
+</node>
+</node>
+</node>
+<node TEXT="Guess and Check" POSITION="right" ID="ID_1369492761" CREATED="1540162399208" MODIFIED="1540338837195">
+<node TEXT="Iterative algorithms by a process of _exhaustive enumeration_" ID="ID_634593323" CREATED="1540338875066" MODIFIED="1540339180615"/>
+</node>
 </node>
 </map>
